@@ -4,7 +4,7 @@
 <nav>
     <a href="./">Home</a>
     <a href="projects">Projects</a>
-    <a href="." class="current">Contact</a>
+    <a href="contact" class="current">Contact</a>
     <a href="resume">Resume</a>
     <a href="https://github.com/sleepyy-cat" target="_blank">Github</a>
 </nav>
