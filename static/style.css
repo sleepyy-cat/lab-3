@@ -1,7 +1,6 @@
 :root {
-  --color-first: oklch(35.616% 0.16494 321.332);
-  --color-second: oklch(57.582% 0.22684 348.883);
-  --color-third: oklch(59.511% 0.24243 320.119);
+  --color-first: oklch(57.582% 0.22684 348.883);
+  --color-second: oklch(59.511% 0.24243 320.119);
   --color-accent: oklch(26.826% 0.1459 284.5);
 }
 
@@ -13,33 +12,8 @@ body {
  max-width: 100ch;
  margin-inline: auto;
  padding: 10px;
- color: var(--color-first);
+
  accent-color: var(--color-accent);
-}
-
-nav {
-  display: flex;
-  margin-bottom: 10px;
-}
-
-nav a {
-  flex: 1;
-  text-decoration: none;
-  color: inherit;
-  text-align: center;
-  padding: 0.5em;
-  border-bottom: 1px solid oklch(80% 3% 200);
-}
-
-nav a.current {
-  border-bottom: 0.4em solid oklch(80% 3% 200);
-  padding-bottom: 0.2em;
-}
-
-nav a:hover {
-  border-bottom: 0.4em solid var(--color-accent);
-  background-color: oklch(from var(--color-accent) 95% 5% h);
-  padding-bottom: 0.2em;
 }
 
 form {
@@ -58,8 +32,18 @@ button {
   grid-column: 1 / -1;
 }
 
-input, textarea, button {
+input, textarea, button, select {
   font: inherit;
+}
+
+.color-scheme-switch {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: inline-flex;
+  align-items: center;
+  font-size: 80%;
+  gap: 4px;
 }
 
 /* label, button {
@@ -105,9 +89,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .resume-written h3 {
-  color: var(--color-second);
+  color: var(--color-first);
 }
 
 .resume-written time {
-  color: var(--color-third);
+  color: var(--color-second);
 }

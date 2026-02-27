@@ -4,13 +4,6 @@
   import reading from "$lib/reading.json";
   import ReadingItem from "$lib/ReadingItem.svelte";
 </script>
-<nav>
-    <a href="." class="current">Home</a>
-    <a href="projects">Projects</a>
-    <a href="contact">Contact</a>
-    <a href="resume">Resume</a>
-    <a href="https://github.com/sleepyy-cat" target="_blank">Github</a>
-</nav>
 <h1>Hanna Chen</h1>
 <h2>Hi, I'm Hanna!</h2>
 <p>

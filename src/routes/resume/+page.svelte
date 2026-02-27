@@ -1,13 +1,6 @@
 <svelte:head>
   <title>Resume</title>
 </svelte:head>
-<nav>
-    <a href="./">Home</a>
-    <a href="projects">Projects</a>
-    <a href="contact">Contact</a>
-    <a href="resume" class="current">Resume</a>
-    <a href="https://github.com/sleepyy-cat" target="_blank">Github</a>
-</nav>
 <h1>Resume</h1>
 <!-- <div class="resume-link">
     <p>
