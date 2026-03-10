@@ -1,62 +1,65 @@
 [
   {
-    "title": "Lorem ipsum dolor sit.",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, optio autem quibusdam aliquid eaque dicta dignissimos nisi quisquam suscipit labore dolorem necessitatibus soluta deserunt eum ad ipsa dolor voluptates voluptatem."
+    "title": "Exploration of Corporate Landlords and Evictions Data for Boston Housing Research",
+    "year": "2026",
+    "image": "images/project-1-image.png",
+    "description": "I performed an analysis of a Boston housing ownership trends dataset. The data provided information about landlords and housing ownership across Boston's neighborhoods, and I looked at the corporate ownership rates and owner occupancy rates to draw conclusions about relationships between the data and Boston's housing affordability crisis.",
+    "story": "As my graduation date nears, finding a place of permanent residence in Boston is becoming a greater concern by the day. The housing affordability situation in Boston is becoming more and more of a crisis, and I want to find out why."
   },
   {
-    "title": "Odio deserunt cum commodi.",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Explicabo eos cum sunt exercitationem repellat, eum animi ex laboriosam voluptates totam maiores. Corrupti, ut fuga labore modi facilis nulla voluptate distinctio dignissimos earum enim non. Numquam incidunt atque repudiandae."
+    "title": "Jugglebot: A robotic arm that can automate the task of juggling",
+    "year": "2025",
+    "image": "images/project-2-image.png",
+    "description": "We made a robot that can repeatedly automate the task of tossing and catching a ball, which is the first step towards creating a robot that can fully automate the juggling process. We used a simulation of the kuka iiwa robot to perform this task, via motion planning and robot control.",
+    "story": "I really like juggling, but I'm not good at it. I wanted to figure out if I could get something else--specifically, a robot arm--to perform the task for me instead."
   },
   {
-    "title": "Iste itaque odit eveniet.",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Error dolores dolorem laborum tenetur ut doloribus ipsam molestiae, exercitationem inventore commodi facere deserunt. Veritatis, dolores iusto. Aliquid magni perspiciatis ducimus tenetur minus, eum amet ipsam maxime fugiat, laudantium nostrum?"
+    "title": "Personal Home Page",
+    "year": "2026",
+    "image": "images/project-3-image.png",
+    "description": "I made a personal website for myself using HTML and CSS skills I'd learned in 6.4500 (and also 6.C35!), which includes information about myself, my projects portfolio, my resume, and a form to contact me.",
+    "story": "Every professional needs a homepage documenting biographical information about their career, and as I enter the professional world, having such a page is important to my career."
   },
   {
-    "title": "Impedit provident sed incidunt.",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Velit aliquam nihil neque quis nam quod nobis fugiat, quia commodi sed eos suscipit repudiandae quisquam. Nobis voluptates sapiente autem aspernatur sequi fugit quos incidunt molestias. Assumenda consequuntur reprehenderit reiciendis?"
+    "title": "An MIT Birds-Eye View Game",
+    "year": "2024",
+    "image": "images/project-4-image.jpg",
+    "description": "We created a Weblab project that was a game using the MIT Birds-Eye view as a map, and players could navigate around the different buildings and floors to collect tokens.",
+    "story": "On my way back from winter break, we flew very low over the MIT campus, and I took this pretty picture of the campus, which inspired me to create a birds-eye view game for Weblab (which I participated in that IAP), since it was cool how I could see various buildings in detail despite being in a plane."
   },
   {
-    "title": "Tempore asperiores et magni.",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Unde expedita, sint culpa nam provident, nemo laborum temporibus ut quidem consectetur ad a maxime itaque ea vel maiores facilis sequi at quas aspernatur. Repellat recusandae debitis harum ducimus odit."
+    "title": "Pokerbots",
+    "year": "2023",
+    "image": "images/project-5-image.png",
+    "description": "We used Python to code a bot that can automatically play poker against opponents given a hand, using pre-programmed poker strategies.",
+    "story": "I love playing poker, and I've learned my fair share of poker strategies, but I wondered if a player that uses my strategies but doesn't have the human emotions accompanying my existence could play better."
   },
   {
-    "title": "Eos quibusdam iusto dicta?",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Recusandae magni commodi labore fugiat, consequatur pariatur autem sapiente quae sit officiis repudiandae eum dolor soluta quis iste libero ea natus doloremque? Adipisci vero sint itaque incidunt necessitatibus error laudantium?"
+    "title": "Virtual Cat Sitter",
+    "year": "2020",
+    "image": "images/project-6-image.png",
+    "description": "An app where users can have a virtual cat as a pet and take care of it by performing tasks.",
+    "story": "I love cats and wish I had an actual cat, but I can't afford any now, so having a virtual pet would be very nice."
   },
   {
     "title": "Illo dolorum doloribus qui!",
+    "year": "2019",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Omnis vitae accusamus fugit corporis quas ea nisi magnam? Quia minima et molestiae saepe quas dicta quod dolor. Inventore consectetur eaque molestiae debitis cupiditate qui totam quo ullam rem recusandae?"
+    "description": "Omnis vitae accusamus fugit corporis quas ea nisi magnam? Quia minima et molestiae saepe quas dicta quod dolor. Inventore consectetur eaque molestiae debitis cupiditate qui totam quo ullam rem recusandae?",
+    "story": "Omnis vitae accusamus fugit corporis quas ea nisi magnam? Quia minima et molestiae saepe quas dicta quod dolor. Inventore consectetur eaque molestiae debitis cupiditate qui totam quo ullam rem recusandae?"
   },
   {
     "title": "Veritatis recusandae cumque perferendis.",
+    "year": "2022",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Fugit recusandae sit quibusdam dolorum, quos praesentium perspiciatis nam vero accusamus, fuga aliquid vitae ex eveniet animi non corrupti voluptas pariatur deleniti! Officia, doloribus blanditiis rerum sapiente assumenda vel nostrum?"
+    "description": "Fugit recusandae sit quibusdam dolorum, quos praesentium perspiciatis nam vero accusamus, fuga aliquid vitae ex eveniet animi non corrupti voluptas pariatur deleniti! Officia, doloribus blanditiis rerum sapiente assumenda vel nostrum?",
+    "story": "Fugit recusandae sit quibusdam dolorum, quos praesentium perspiciatis nam vero accusamus, fuga aliquid vitae ex eveniet animi non corrupti voluptas pariatur deleniti! Officia, doloribus blanditiis rerum sapiente assumenda vel nostrum?"
   },
   {
     "title": "Aliquam ratione similique alias!",
+    "year": "2024",
     "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Esse quo velit aut exercitationem id expedita? Id omnis exercitationem molestiae quis maiores explicabo incidunt magnam accusamus, cupiditate voluptates, nisi non. Ut quae officia, deleniti quisquam alias in commodi esse."
-  },
-  {
-    "title": "Aperiam deleniti est dolor!",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Magni incidunt deserunt ab molestias eveniet repudiandae architecto perspiciatis nesciunt, laudantium recusandae nostrum repellat repellendus natus sint iste at officiis officia nulla quis enim et? Minima illo labore ex qui!"
-  },
-  {
-    "title": "Perferendis, maxime. Placeat, fugit!",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Explicabo qui modi amet aspernatur quis, consequatur magnam cupiditate blanditiis cum laborum esse, perferendis nisi ipsum harum. Iure perferendis iste quia voluptatem! Odio autem, magnam dolores voluptate suscipit excepturi aliquid?"
-  },
-  {
-    "title": "Id sequi numquam quia!",
-    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-    "description": "Pariatur, officiis laboriosam totam quibusdam aliquam obcaecati nostrum illo tempore itaque deserunt doloribus consequuntur natus maiores possimus nam odio aut fugiat molestias fuga ipsum saepe velit? Obcaecati et deleniti ad!"
+    "description": "Esse quo velit aut exercitationem id expedita? Id omnis exercitationem molestiae quis maiores explicabo incidunt magnam accusamus, cupiditate voluptates, nisi non. Ut quae officia, deleniti quisquam alias in commodi esse.",
+    "story": "Esse quo velit aut exercitationem id expedita? Id omnis exercitationem molestiae quis maiores explicabo incidunt magnam accusamus, cupiditate voluptates, nisi non. Ut quae officia, deleniti quisquam alias in commodi esse."
   }
 ]

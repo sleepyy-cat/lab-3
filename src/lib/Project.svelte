@@ -1,5 +1,6 @@
 <script>
     export let data = {};
+    import { base } from "$app/paths";
 </script>
 <article>
     <h2>{data.title}</h2>
