@@ -22,8 +22,8 @@ jobs:
 
       - name: Configure git
         run: |
-          git config --global user.email "magic1hma@gmail.com"
-          git config --global user.name "sleepyy-cat"
+          git config --global user.email magic1hma@gmail.com
+          git config --global user.name sleepyy-cat
 
       - name: Generate loc.csv
         run: npx elocuent -d "static,src" -o static/loc.csv
