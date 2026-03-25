@@ -2,8 +2,9 @@
     import * as d3 from 'd3';
 
     let width = 600;
-    let height = 400;
+    let height = 180;
     export let data = [];
+    export let title=""
 
     let margin = { top: 40, right: 150, bottom: 60, left: 80 };
     let innerWidth = width - margin.left - margin.right;
@@ -22,10 +23,12 @@
         .domain(data.map(d => d.label));
 
     let xAxis, yAxis;
-
     $: if (xAxis && yAxis) {
-        d3.select(xAxis).call(d3.axisBottom(xScale).ticks(5));
-        d3.select(yAxis).call(d3.axisLeft(yScale));
+      d3.select(xAxis).call(
+        d3.axisBottom(xScale)
+        .ticks(Math.min(d3.max(data, d => d.value), 10))
+      );
+      d3.select(yAxis).call(d3.axisLeft(yScale));
     }
 
     $: maxBar = d3.greatest(data, d => d.value);
@@ -41,7 +44,7 @@
         <!-- x-axis label -->
         <text 
             x={innerWidth / 2} 
-            y={innerHeight + 35} 
+            y={innerHeight + 30} 
             text-anchor="middle" 
             class="axis-label">
             Lines of Code
@@ -54,7 +57,9 @@
             text-anchor="middle" 
             transform="rotate(-90)" 
             class="axis-label">
-            Programming Language
+            <!-- Programming Language -->
+            <tspan x="{-innerHeight / 2}" dy="0">Programming</tspan>
+            <tspan x="{-innerHeight / 2}" dy="1.2em">Language</tspan>
         </text>
         {#each data as d}
             <rect
@@ -77,20 +82,12 @@
                 stroke="currentColor"
                 stroke-width="2"
             />
-            <!-- leader line -->
-            <line
-                x1={xScale(maxBar.value)}
-                y1={yScale(maxBar.label) + yScale.bandwidth() / 2}
-                x2={xScale(maxBar.value) + 30}
-                y2={yScale(maxBar.label) + yScale.bandwidth() / 2}
-                stroke="currentColor"
-                stroke-width="1"
-            />
             <!-- annotation text at end of leader line -->
             <text
-                x={xScale(maxBar.value) + 35}
+                x={xScale(maxBar.value) + 10}
                 y={yScale(maxBar.label) + yScale.bandwidth() / 2}
                 dominant-baseline="middle"
+                text-anchor="start"
                 class="annotation">
                 Most lines of code
             </text>
@@ -101,7 +98,7 @@
         y={margin.top / 2} 
         text-anchor="middle"
         class="chart-title">
-        Lines of Code per Language
+        {title}
     </text>
   </svg>
   <ul class="legend">
@@ -147,18 +144,19 @@
   }
   
   .chart-title {
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: bold;
     fill: currentColor;
   }
   
   .axis-label {
-    font-size: 0.8em;
+    font-size: 0.6em;
     fill: currentColor;
   }
   
   .annotation {
-    font-size: 0.7em;
+    font-size: 0.5em;
+    margin-right: 0.5px;
     fill: currentColor;
     font-style: italic;
   }
