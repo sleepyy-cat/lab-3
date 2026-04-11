@@ -84,14 +84,14 @@
                 <line
                     x1={xScale(maxBar.label) + xScale.bandwidth()}
                     y1={yScale(maxBar.value) + (innerHeight - yScale(maxBar.value)) / 2 - 10}
-                    x2={xScale(maxBar.label) + xScale.bandwidth() + 60}
+                    x2={xScale(maxBar.label) + xScale.bandwidth() + 40}
                     y2={yScale(maxBar.value) + (innerHeight - yScale(maxBar.value)) / 2 - 10}
                     stroke="currentColor"
                     stroke-width="1"
                 />
                 <!-- annotation text at end of leader line -->
                 <text
-                    x={xScale(maxBar.label) + xScale.bandwidth() + 65}
+                    x={xScale(maxBar.label) + xScale.bandwidth() + 45}
                     y={yScale(maxBar.value) + (innerHeight - yScale(maxBar.value)) / 2 - 10}
                     dominant-baseline="middle"
                     class="annotation">
