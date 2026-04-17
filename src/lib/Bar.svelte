@@ -223,9 +223,9 @@
         outline: none;
     }
 
-    svg:hover rect:not(:hover), .container:focus-within rect:not(:focus-visible) { 
+    /* svg:hover rect:not(:hover), .container:focus-within rect:not(:focus-visible) { 
         opacity: 50%; 
-    }
+    } */
     
     rect:focus-visible {
         stroke: white;
