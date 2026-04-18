@@ -18,8 +18,9 @@
         .domain([0, d3.max(data, d => d.value) || 1])
         .range([innerHeight, 0]);
 
-    $: colorScale = d3.scaleOrdinal(d3.schemeTableau10)
-        .domain(data.map(d => d.label));
+    $: colorScale = d3.scaleOrdinal()
+        .domain(data.map(d => d.label))
+        .range(d3.quantize(d3.interpolateBlues, data.length));
 
     let xAxis, yAxis;
     $: if (xAxis && yAxis) {
@@ -95,6 +96,7 @@
                         height={innerHeight - yScale(d.value)}
                         fill={colorScale(d.label)}
                         opacity={selectedIndex === -1 || selectedIndex === index ? 1 : 0.45}
+                        stroke="black"
                         tabindex="0"
                         role="button"
                         aria-label="{d.label}: {d.value} projects"
@@ -221,6 +223,8 @@
     rect {
         transition: 300ms;
         outline: none;
+        stroke: black;
+        stroke-width: 1;
     }
 
     /* svg:hover rect:not(:hover), .container:focus-within rect:not(:focus-visible) { 
